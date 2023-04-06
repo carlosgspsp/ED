@@ -1,0 +1,179 @@
+\hypertarget{class_letra}{}\section{Referencia de la Clase Letra}
+\label{class_letra}\index{Letra@{Letra}}
+
+
+T\+DA \hyperlink{class_letra}{Letra} {\bfseries Definición\+:} La clase letra guarda la informacion sobre cada letra.  
+
+
+
+
+{\ttfamily \#include $<$Letra.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_letra_a2e236c67e3630258c6d3d9f2a9e66709}{Letra} ()\hypertarget{class_letra_a2e236c67e3630258c6d3d9f2a9e66709}{}\label{class_letra_a2e236c67e3630258c6d3d9f2a9e66709}
+
+\begin{DoxyCompactList}\small\item\em Constructor sin argumentos de \hyperlink{class_letra}{Letra}. \end{DoxyCompactList}\item 
+\hyperlink{class_letra_af93c6aaf2572b0d5c6018a2cc725b9ac}{Letra} (char l, bool f)
+\begin{DoxyCompactList}\small\item\em constructor con argumentos de \hyperlink{class_letra}{Letra} \end{DoxyCompactList}\item 
+\hyperlink{class_letra_a4304daa71fe67908abd35cede2b0a4bb}{Letra} (char l, int r, int p)
+\begin{DoxyCompactList}\small\item\em constructor con argumentos de \hyperlink{class_letra}{Letra} \end{DoxyCompactList}\item 
+char \hyperlink{class_letra_ae3211a43ab79d91579ec0dcfcb75b406}{Getletra} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el caracter de la letra. \end{DoxyCompactList}\item 
+int \hyperlink{class_letra_a782eef48654dd647230431c504a64f08}{Getrepeticiones} ()
+\begin{DoxyCompactList}\small\item\em Obtiene el numero de repeticiones maximo de la letra. \end{DoxyCompactList}\item 
+int \hyperlink{class_letra_a65cf5c62e8e7fd3fb27bfffab9e3e6d4}{Getpuntuacion} ()
+\begin{DoxyCompactList}\small\item\em Obtiene la puntuacion asignada a la letra. \end{DoxyCompactList}\item 
+bool \hyperlink{class_letra_a05eac9ad5462adecb931fab403218bc0}{Esfinal} ()
+\begin{DoxyCompactList}\small\item\em Comprueba si la letra es el final de una palabra. \end{DoxyCompactList}\item 
+void \hyperlink{class_letra_a3dc799384426e2194da44ed85580d4f6}{Setfinal} (bool f)
+\begin{DoxyCompactList}\small\item\em Cambia la variable final a true o false. \end{DoxyCompactList}\item 
+bool \hyperlink{class_letra_ad9d804cc171e1bf2081092d5b3bfd307}{operator==} (\hyperlink{class_letra}{Letra} l)
+\begin{DoxyCompactList}\small\item\em Operador de comparacion de \hyperlink{class_letra}{Letra}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+T\+DA \hyperlink{class_letra}{Letra} {\bfseries Definición\+:} La clase letra guarda la informacion sobre cada letra. 
+
+\subsection{Documentación del constructor y destructor}
+\index{Letra@{Letra}!Letra@{Letra}}
+\index{Letra@{Letra}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Letra(char l, bool f)}{Letra(char l, bool f)}}]{\setlength{\rightskip}{0pt plus 5cm}Letra\+::\+Letra (
+\begin{DoxyParamCaption}
+\item[{char}]{l, }
+\item[{bool}]{f}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_af93c6aaf2572b0d5c6018a2cc725b9ac}{}\label{class_letra_af93c6aaf2572b0d5c6018a2cc725b9ac}
+
+
+constructor con argumentos de \hyperlink{class_letra}{Letra} 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em l} & caracter de la letra \\
+\hline
+{\em f} & true o false dependiendo de si la letra es final o no \\
+\hline
+\end{DoxyParams}
+\index{Letra@{Letra}!Letra@{Letra}}
+\index{Letra@{Letra}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Letra(char l, int r, int p)}{Letra(char l, int r, int p)}}]{\setlength{\rightskip}{0pt plus 5cm}Letra\+::\+Letra (
+\begin{DoxyParamCaption}
+\item[{char}]{l, }
+\item[{int}]{r, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_a4304daa71fe67908abd35cede2b0a4bb}{}\label{class_letra_a4304daa71fe67908abd35cede2b0a4bb}
+
+
+constructor con argumentos de \hyperlink{class_letra}{Letra} 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em l} & caracter de la letra \\
+\hline
+{\em r} & numero de repeticiones de la letra \\
+\hline
+{\em p} & puntuacion de la letra \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentación de las funciones miembro}
+\index{Letra@{Letra}!Esfinal@{Esfinal}}
+\index{Esfinal@{Esfinal}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Esfinal()}{Esfinal()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Letra\+::\+Esfinal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_a05eac9ad5462adecb931fab403218bc0}{}\label{class_letra_a05eac9ad5462adecb931fab403218bc0}
+
+
+Comprueba si la letra es el final de una palabra. 
+
+\begin{DoxyReturn}{Devuelve}
+true si es el final de una palabra, false si no lo es 
+\end{DoxyReturn}
+\index{Letra@{Letra}!Getletra@{Getletra}}
+\index{Getletra@{Getletra}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Getletra()}{Getletra()}}]{\setlength{\rightskip}{0pt plus 5cm}char Letra\+::\+Getletra (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_ae3211a43ab79d91579ec0dcfcb75b406}{}\label{class_letra_ae3211a43ab79d91579ec0dcfcb75b406}
+
+
+Obtiene el caracter de la letra. 
+
+\begin{DoxyReturn}{Devuelve}
+un char con el caracter de la letra 
+\end{DoxyReturn}
+\index{Letra@{Letra}!Getpuntuacion@{Getpuntuacion}}
+\index{Getpuntuacion@{Getpuntuacion}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Getpuntuacion()}{Getpuntuacion()}}]{\setlength{\rightskip}{0pt plus 5cm}int Letra\+::\+Getpuntuacion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_a65cf5c62e8e7fd3fb27bfffab9e3e6d4}{}\label{class_letra_a65cf5c62e8e7fd3fb27bfffab9e3e6d4}
+
+
+Obtiene la puntuacion asignada a la letra. 
+
+\begin{DoxyReturn}{Devuelve}
+un int con la puntuacion asignada a la letra 
+\end{DoxyReturn}
+\index{Letra@{Letra}!Getrepeticiones@{Getrepeticiones}}
+\index{Getrepeticiones@{Getrepeticiones}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Getrepeticiones()}{Getrepeticiones()}}]{\setlength{\rightskip}{0pt plus 5cm}int Letra\+::\+Getrepeticiones (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_a782eef48654dd647230431c504a64f08}{}\label{class_letra_a782eef48654dd647230431c504a64f08}
+
+
+Obtiene el numero de repeticiones maximo de la letra. 
+
+\begin{DoxyReturn}{Devuelve}
+un int con el numero maximo de repeticiones de la letra 
+\end{DoxyReturn}
+\index{Letra@{Letra}!operator==@{operator==}}
+\index{operator==@{operator==}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{operator==(\+Letra l)}{operator==(Letra l)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Letra\+::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Letra}}]{l}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_ad9d804cc171e1bf2081092d5b3bfd307}{}\label{class_letra_ad9d804cc171e1bf2081092d5b3bfd307}
+
+
+Operador de comparacion de \hyperlink{class_letra}{Letra}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em l} & la letra que se quiere comparar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si son iguales 
+\end{DoxyReturn}
+\index{Letra@{Letra}!Setfinal@{Setfinal}}
+\index{Setfinal@{Setfinal}!Letra@{Letra}}
+\subsubsection[{\texorpdfstring{Setfinal(bool f)}{Setfinal(bool f)}}]{\setlength{\rightskip}{0pt plus 5cm}void Letra\+::\+Setfinal (
+\begin{DoxyParamCaption}
+\item[{bool}]{f}
+\end{DoxyParamCaption}
+)}\hypertarget{class_letra_a3dc799384426e2194da44ed85580d4f6}{}\label{class_letra_a3dc799384426e2194da44ed85580d4f6}
+
+
+Cambia la variable final a true o false. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em f} & Un bool \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+inc/\hyperlink{_letra_8h}{Letra.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,151 @@
+\hypertarget{class_bolsa_letras}{}\section{Referencia de la Clase Bolsa\+Letras}
+\label{class_bolsa_letras}\index{Bolsa\+Letras@{Bolsa\+Letras}}
+
+
+T\+DA \hyperlink{class_bolsa_letras}{Bolsa\+Letras} {\bfseries Definición\+:} \hyperlink{class_bolsa_letras}{Bolsa\+Letras} guarda todos los caracteres que se pueden usar y obtiene las letras disponibles en el juego de forma aleatoria.  
+
+
+
+
+{\ttfamily \#include $<$Bolsa\+Letras.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_bolsa_letras_a2e269014b3a51359195e7b288a4b37c6}{Bolsa\+Letras} ()\hypertarget{class_bolsa_letras_a2e269014b3a51359195e7b288a4b37c6}{}\label{class_bolsa_letras_a2e269014b3a51359195e7b288a4b37c6}
+
+\begin{DoxyCompactList}\small\item\em Constructor sin argumentos de \hyperlink{class_bolsa_letras}{Bolsa\+Letras}. \end{DoxyCompactList}\item 
+\hyperlink{class_bolsa_letras_af412cf1648cf99bbf0e6ac897cdf6794}{Bolsa\+Letras} (\hyperlink{class_conjunto_letras}{Conjunto\+Letras} c)
+\begin{DoxyCompactList}\small\item\em Constructor con argumentos de \hyperlink{class_bolsa_letras}{Bolsa\+Letras}. \end{DoxyCompactList}\item 
+void \hyperlink{class_bolsa_letras_ac77fda91eebd34ba9f5b880ffe4a538b}{elimina\+\_\+letra} (char letra)
+\begin{DoxyCompactList}\small\item\em Elimina un caracter de dequerandom. \end{DoxyCompactList}\item 
+deque$<$ char $>$ \hyperlink{class_bolsa_letras_a8f921efe87a007d196cbf48b9fe103e9}{Get\+Randomletras} (int n)
+\begin{DoxyCompactList}\small\item\em Obtiene un numero n de letras aleatorias disponibles en el campo letras. \end{DoxyCompactList}\item 
+\hyperlink{class_bolsa_letras}{Bolsa\+Letras} \hyperlink{class_bolsa_letras_aba6f48dfaecf7e5635774913753d692b}{operator=} (\hyperlink{class_bolsa_letras}{Bolsa\+Letras} \&otra\+\_\+bolsa)
+\begin{DoxyCompactList}\small\item\em Operador de asignacion de \hyperlink{class_bolsa_letras}{Bolsa\+Letras}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_bolsa_letras_a1976f62338d5216fad074e0b0fc0d6df}{pertenece} (char letra)
+\begin{DoxyCompactList}\small\item\em Comprueba si un caracter se encuentra en letras. \end{DoxyCompactList}\item 
+bool \hyperlink{class_bolsa_letras_aec338cef188e60e5737de9c336ec55ed}{pertenecerandom} (char letra)
+\begin{DoxyCompactList}\small\item\em Comprueba si un caracter se encuentra en dequerandom. \end{DoxyCompactList}\item 
+deque$<$ char $>$ \hyperlink{class_bolsa_letras_a9c0e1bf5538d08550f2a0ffbdeea6f71}{Getdequerandom} ()\hypertarget{class_bolsa_letras_a9c0e1bf5538d08550f2a0ffbdeea6f71}{}\label{class_bolsa_letras_a9c0e1bf5538d08550f2a0ffbdeea6f71}
+
+\begin{DoxyCompactList}\small\item\em Devuelve una copia de dequerandom. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+T\+DA \hyperlink{class_bolsa_letras}{Bolsa\+Letras} {\bfseries Definición\+:} \hyperlink{class_bolsa_letras}{Bolsa\+Letras} guarda todos los caracteres que se pueden usar y obtiene las letras disponibles en el juego de forma aleatoria. 
+
+\subsection{Documentación del constructor y destructor}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!Bolsa\+Letras@{Bolsa\+Letras}}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!Bolsa\+Letras@{Bolsa\+Letras}}
+\subsubsection[{\texorpdfstring{Bolsa\+Letras(\+Conjunto\+Letras c)}{BolsaLetras(ConjuntoLetras c)}}]{\setlength{\rightskip}{0pt plus 5cm}Bolsa\+Letras\+::\+Bolsa\+Letras (
+\begin{DoxyParamCaption}
+\item[{{\bf Conjunto\+Letras}}]{c}
+\end{DoxyParamCaption}
+)}\hypertarget{class_bolsa_letras_af412cf1648cf99bbf0e6ac897cdf6794}{}\label{class_bolsa_letras_af412cf1648cf99bbf0e6ac897cdf6794}
+
+
+Constructor con argumentos de \hyperlink{class_bolsa_letras}{Bolsa\+Letras}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & \hyperlink{class_conjunto_letras}{Conjunto\+Letras} a parir del cual se quieren extraer todos los caracteres \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentación de las funciones miembro}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!elimina\+\_\+letra@{elimina\+\_\+letra}}
+\index{elimina\+\_\+letra@{elimina\+\_\+letra}!Bolsa\+Letras@{Bolsa\+Letras}}
+\subsubsection[{\texorpdfstring{elimina\+\_\+letra(char letra)}{elimina_letra(char letra)}}]{\setlength{\rightskip}{0pt plus 5cm}void Bolsa\+Letras\+::elimina\+\_\+letra (
+\begin{DoxyParamCaption}
+\item[{char}]{letra}
+\end{DoxyParamCaption}
+)}\hypertarget{class_bolsa_letras_ac77fda91eebd34ba9f5b880ffe4a538b}{}\label{class_bolsa_letras_ac77fda91eebd34ba9f5b880ffe4a538b}
+
+
+Elimina un caracter de dequerandom. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em letra} & el caracter que se quiere eliminar \\
+\hline
+\end{DoxyParams}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!Get\+Randomletras@{Get\+Randomletras}}
+\index{Get\+Randomletras@{Get\+Randomletras}!Bolsa\+Letras@{Bolsa\+Letras}}
+\subsubsection[{\texorpdfstring{Get\+Randomletras(int n)}{GetRandomletras(int n)}}]{\setlength{\rightskip}{0pt plus 5cm}deque$<$char$>$ Bolsa\+Letras\+::\+Get\+Randomletras (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{class_bolsa_letras_a8f921efe87a007d196cbf48b9fe103e9}{}\label{class_bolsa_letras_a8f921efe87a007d196cbf48b9fe103e9}
+
+
+Obtiene un numero n de letras aleatorias disponibles en el campo letras. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em n} & numero de letras que se quiere obtener \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+un deque de char con las letras obtenidas aleatoriamente 
+\end{DoxyReturn}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!operator=@{operator=}}
+\index{operator=@{operator=}!Bolsa\+Letras@{Bolsa\+Letras}}
+\subsubsection[{\texorpdfstring{operator=(\+Bolsa\+Letras \&otra\+\_\+bolsa)}{operator=(BolsaLetras &otra_bolsa)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bolsa\+Letras} Bolsa\+Letras\+::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Bolsa\+Letras} \&}]{otra\+\_\+bolsa}
+\end{DoxyParamCaption}
+)}\hypertarget{class_bolsa_letras_aba6f48dfaecf7e5635774913753d692b}{}\label{class_bolsa_letras_aba6f48dfaecf7e5635774913753d692b}
+
+
+Operador de asignacion de \hyperlink{class_bolsa_letras}{Bolsa\+Letras}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em otra\+\_\+bolsa} & Bolsa de la que se quieren obtener los datos \\
+\hline
+\end{DoxyParams}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!pertenece@{pertenece}}
+\index{pertenece@{pertenece}!Bolsa\+Letras@{Bolsa\+Letras}}
+\subsubsection[{\texorpdfstring{pertenece(char letra)}{pertenece(char letra)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Bolsa\+Letras\+::pertenece (
+\begin{DoxyParamCaption}
+\item[{char}]{letra}
+\end{DoxyParamCaption}
+)}\hypertarget{class_bolsa_letras_a1976f62338d5216fad074e0b0fc0d6df}{}\label{class_bolsa_letras_a1976f62338d5216fad074e0b0fc0d6df}
+
+
+Comprueba si un caracter se encuentra en letras. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em letra} & char del caracter que se quiere buscar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si esta, false si no esta 
+\end{DoxyReturn}
+\index{Bolsa\+Letras@{Bolsa\+Letras}!pertenecerandom@{pertenecerandom}}
+\index{pertenecerandom@{pertenecerandom}!Bolsa\+Letras@{Bolsa\+Letras}}
+\subsubsection[{\texorpdfstring{pertenecerandom(char letra)}{pertenecerandom(char letra)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Bolsa\+Letras\+::pertenecerandom (
+\begin{DoxyParamCaption}
+\item[{char}]{letra}
+\end{DoxyParamCaption}
+)}\hypertarget{class_bolsa_letras_aec338cef188e60e5737de9c336ec55ed}{}\label{class_bolsa_letras_aec338cef188e60e5737de9c336ec55ed}
+
+
+Comprueba si un caracter se encuentra en dequerandom. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em letra} & char del caracter que se quiere buscar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+true si esta, false si no esta 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+inc/\hyperlink{_bolsa_letras_8h}{Bolsa\+Letras.\+h}\end{DoxyCompactItemize}

@@ -1,0 +1,104 @@
+\hypertarget{class_arbol_general}{}\section{Referencia de la plantilla de la Clase Arbol\+General$<$ Tbase $>$}
+\label{class_arbol_general}\index{Arbol\+General$<$ Tbase $>$@{Arbol\+General$<$ Tbase $>$}}
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_arbol_general_1_1const__iter__preorden}{const\+\_\+iter\+\_\+preorden}
+\item 
+class \hyperlink{class_arbol_general_1_1iter__preorden}{iter\+\_\+preorden}
+\end{DoxyCompactItemize}
+\subsection*{Tipos públicos}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct nodo $\ast$ {\bfseries Nodo}\hypertarget{class_arbol_general_a12cc1b74a9095d89bc7334290d332f7a}{}\label{class_arbol_general_a12cc1b74a9095d89bc7334290d332f7a}
+
+\end{DoxyCompactItemize}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Arbol\+General} (const Tbase \&e)\hypertarget{class_arbol_general_a8ddac1a024f05bee96f4c259fad76c4c}{}\label{class_arbol_general_a8ddac1a024f05bee96f4c259fad76c4c}
+
+\item 
+{\bfseries Arbol\+General} (const \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&v)\hypertarget{class_arbol_general_ad7926f03eb051b9691d57f4e508cad4d}{}\label{class_arbol_general_ad7926f03eb051b9691d57f4e508cad4d}
+
+\item 
+\hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \& {\bfseries operator=} (const \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&v)\hypertarget{class_arbol_general_aebd3723e9929b905445127a754a26759}{}\label{class_arbol_general_aebd3723e9929b905445127a754a26759}
+
+\item 
+void {\bfseries Asigna\+Raiz} (const Tbase \&e)\hypertarget{class_arbol_general_a84781986cd57390540600494303b0e9d}{}\label{class_arbol_general_a84781986cd57390540600494303b0e9d}
+
+\item 
+Nodo {\bfseries raiz} () const \hypertarget{class_arbol_general_a385099b0c15ac15cf15a954725e1e8a2}{}\label{class_arbol_general_a385099b0c15ac15cf15a954725e1e8a2}
+
+\item 
+Nodo {\bfseries hijomasizquierda} (const Nodo n) const \hypertarget{class_arbol_general_aebf8b37c050c73a9bff1f697efd931b5}{}\label{class_arbol_general_aebf8b37c050c73a9bff1f697efd931b5}
+
+\item 
+Nodo {\bfseries hermanoderecha} (const Nodo n) const \hypertarget{class_arbol_general_a854ad15f86991fdc0e2257b3d32a98b8}{}\label{class_arbol_general_a854ad15f86991fdc0e2257b3d32a98b8}
+
+\item 
+Nodo {\bfseries padre} (const Nodo n) const \hypertarget{class_arbol_general_a9027dd4b060e1216241d4cfe9f2898e7}{}\label{class_arbol_general_a9027dd4b060e1216241d4cfe9f2898e7}
+
+\item 
+Tbase \& {\bfseries etiqueta} (const Nodo n)\hypertarget{class_arbol_general_ac08063e5bcc034ab723d21c0fea44b46}{}\label{class_arbol_general_ac08063e5bcc034ab723d21c0fea44b46}
+
+\item 
+const Tbase \& {\bfseries etiqueta} (const Nodo n) const \hypertarget{class_arbol_general_a191b525e0e6c8dec3a1430139f516847}{}\label{class_arbol_general_a191b525e0e6c8dec3a1430139f516847}
+
+\item 
+void {\bfseries asignar\+\_\+subarbol} (const \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&orig, const Nodo nod)\hypertarget{class_arbol_general_ad9fddc80b179cac8eddc113a048334c1}{}\label{class_arbol_general_ad9fddc80b179cac8eddc113a048334c1}
+
+\item 
+void {\bfseries podar\+\_\+hijomasizquierda} (Nodo n, \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&dest)\hypertarget{class_arbol_general_a7f2fa2d9be4af4b7be1c334819a04c39}{}\label{class_arbol_general_a7f2fa2d9be4af4b7be1c334819a04c39}
+
+\item 
+void {\bfseries podar\+\_\+hermanoderecha} (Nodo n, \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&dest)\hypertarget{class_arbol_general_a81282ccc37494f1e13042e06ea475fb6}{}\label{class_arbol_general_a81282ccc37494f1e13042e06ea475fb6}
+
+\item 
+void {\bfseries insertar\+\_\+hijomasizquierda} (Nodo n, \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&rama)\hypertarget{class_arbol_general_acf95226edb2a4e4c7fba82aaa82d0ec9}{}\label{class_arbol_general_acf95226edb2a4e4c7fba82aaa82d0ec9}
+
+\item 
+void {\bfseries insertar\+\_\+hermanoderecha} (Nodo n, \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&rama)\hypertarget{class_arbol_general_a855d44f14a9ef638f8dd46376fc2f961}{}\label{class_arbol_general_a855d44f14a9ef638f8dd46376fc2f961}
+
+\item 
+void {\bfseries clear} ()\hypertarget{class_arbol_general_a3ae21db42586b23ccc082aeb321db56f}{}\label{class_arbol_general_a3ae21db42586b23ccc082aeb321db56f}
+
+\item 
+int {\bfseries size} () const \hypertarget{class_arbol_general_a69a2c10bedbf77dbc23baea0a731a02d}{}\label{class_arbol_general_a69a2c10bedbf77dbc23baea0a731a02d}
+
+\item 
+bool {\bfseries empty} () const \hypertarget{class_arbol_general_ab7b59c8fe7e74f78f3533965460a6c9a}{}\label{class_arbol_general_ab7b59c8fe7e74f78f3533965460a6c9a}
+
+\item 
+bool {\bfseries operator==} (const \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&v) const \hypertarget{class_arbol_general_a5c7db1c3f26d29b887ba906d02397a8d}{}\label{class_arbol_general_a5c7db1c3f26d29b887ba906d02397a8d}
+
+\item 
+bool {\bfseries operator!=} (const \hyperlink{class_arbol_general}{Arbol\+General}$<$ Tbase $>$ \&v) const \hypertarget{class_arbol_general_ab5b783cb068a394511f99e08a827cdda}{}\label{class_arbol_general_ab5b783cb068a394511f99e08a827cdda}
+
+\item 
+\hyperlink{class_arbol_general_1_1iter__preorden}{iter\+\_\+preorden} {\bfseries begin} ()\hypertarget{class_arbol_general_afbaa00d73656de3957e6f0427ba53347}{}\label{class_arbol_general_afbaa00d73656de3957e6f0427ba53347}
+
+\item 
+\hyperlink{class_arbol_general_1_1const__iter__preorden}{const\+\_\+iter\+\_\+preorden} {\bfseries begin} () const \hypertarget{class_arbol_general_a63912c2167da4335982ea59948404d4a}{}\label{class_arbol_general_a63912c2167da4335982ea59948404d4a}
+
+\item 
+\hyperlink{class_arbol_general_1_1iter__preorden}{iter\+\_\+preorden} {\bfseries end} ()\hypertarget{class_arbol_general_a7d6434353f5d55acf8c22226838da586}{}\label{class_arbol_general_a7d6434353f5d55acf8c22226838da586}
+
+\item 
+\hyperlink{class_arbol_general_1_1const__iter__preorden}{const\+\_\+iter\+\_\+preorden} {\bfseries end} () const \hypertarget{class_arbol_general_a457b326a6347bb4d9b1cf6a062b32988}{}\label{class_arbol_general_a457b326a6347bb4d9b1cf6a062b32988}
+
+\end{DoxyCompactItemize}
+\subsection*{Amigas}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\std\+::istream \& {\bfseries operator$>$$>$} (std\+::istream \&in, \hyperlink{class_arbol_general}{Arbol\+General}$<$ T $>$ \&v)\hypertarget{class_arbol_general_ab1318141f030856da7dcfc1c7a162565}{}\label{class_arbol_general_ab1318141f030856da7dcfc1c7a162565}
+
+\item 
+{\footnotesize template$<$class T $>$ }\\std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&out, const \hyperlink{class_arbol_general}{Arbol\+General}$<$ T $>$ \&v)\hypertarget{class_arbol_general_a4e1153e673608d812c48de2a33bbead0}{}\label{class_arbol_general_a4e1153e673608d812c48de2a33bbead0}
+
+\end{DoxyCompactItemize}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+inc/Arbol\+General.\+h\end{DoxyCompactItemize}
